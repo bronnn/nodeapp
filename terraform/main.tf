@@ -27,7 +27,7 @@ resource "aws_instance" "servernode" {
     timeout     = "4m"
   }
   tags = {
-    "name" = "DeployVM"
+    "name" = "DeployTheVM"
   }
 }
 resource "aws_iam_instance_profile" "ec2-profile" {
