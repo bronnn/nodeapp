@@ -1,0 +1,1 @@
+# Example application to be deployed to AWS using Terraform
