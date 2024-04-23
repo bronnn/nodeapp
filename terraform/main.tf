@@ -32,7 +32,7 @@ resource "aws_instance" "servernode" {
 }
 resource "aws_iam_instance_profile" "ec2-profile" {
   name = "ec2-profile"
-  role = "ECR-LOGIN-AUTO"
+  role = "ECR-ECRR-AUTH"
 }
 resource "aws_security_group" "maingroup" {
   egress = [
